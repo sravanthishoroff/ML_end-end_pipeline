@@ -121,8 +121,5 @@ class DataTransformation:
                 self.data_transformation_config.preprocessor_obj_file_path,
             )
         except Exception as e:
-<<<<<<< HEAD
             raise CustomeException(e,sys)
-=======
-            raise CustomException(e,sys)
->>>>>>> 5e03c34860c55543fe51a2970c7d78b1fc778d30
+
